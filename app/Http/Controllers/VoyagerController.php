@@ -13,6 +13,7 @@ use App\Models\OurServices;
 use App\Models\Services;
 use App\Models\TypeOfServices;
 use App\Models\WelcomePage;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 
 class VoyagerController extends Controller

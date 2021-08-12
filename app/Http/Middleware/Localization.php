@@ -22,8 +22,7 @@ class Localization
         if (Session::get('locale') != null) {
             App::setlocale(Session::get('locale'));
         }else {
-            Session::get('locale', 'en');
-            App::setlocale(Session::get('locale'));
+            App::setlocale('ru');
         }
         return $next($request);
     }
